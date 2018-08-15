@@ -2,7 +2,7 @@ from random import randint
 def cpuChoose():
     return randint(1,3)
 def round(s1, s2):
-    choiceString = input("Enter rock/paper/scissor")
+    choiceString = input("Enter rock/paper/scissor ")
     cpu = cpuChoose()
     if(choiceString.lower() == "rock"):
         if(cpu == 1):
